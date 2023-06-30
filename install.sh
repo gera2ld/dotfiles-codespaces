@@ -14,5 +14,4 @@ export PNPM_HOME="\$HOME/.local/share/pnpm"
 export PATH="\$PNPM_HOME:\$HOME/.local/bin:\$PATH"
 EOF
 
-. .zshrc
-pnpm i -g pnpm npm-check-updates
+. $HOME/.zshrc
