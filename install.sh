@@ -2,7 +2,7 @@
 
 cd $HOME
 
-curl -fsSLo sun https://sun-gerald-win.ipns.dweb.link/sun-linux-amd64
+curl -fsSLo sun https://b2.gera2ld.space/sun/sun-linux-amd64
 chmod +x sun
 SUN_MODE=minimal ./sun install neovim deno
 
